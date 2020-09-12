@@ -1,0 +1,308 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.menu_bar{
+    display: none;
+}
+header.header{
+    width: 100%;
+    height: 186px;
+    position: relative;
+    z-index: 2;
+    display: block;
+    background: #020c15;
+    float: left;
+    z-index: 4;
+}
+.logo{
+    position: relative;
+    float: left;
+    display: block;
+    z-index: 1;
+    text-align: center;
+    width: 25%;
+    height: 30vh;
+    margin-top: 22px;
+}
+.header div img{
+    width: 200px;
+    height: 100px;
+    padding: 0;
+}
+.header .menu{
+    position: relative;
+    float: left;
+    min-width: 50%;
+    height: 30vh;
+    display: block;
+    z-index: 1;
+    color: white;
+    /*font-family: 'Agency FB', arial;*/
+    font-family: "Franklin Gothic";
+}
+
+.header .menu .subtitulo{
+    text-align: center;
+    display: block;
+    padding-top: 20px;
+    font-size: 26px;
+}
+.header .menu nav{
+    width: 100%;
+    margin: 0px auto;
+    background: #525051;
+    margin-top: 15px;
+}
+.header .menu nav ul{
+    overflow: hidden;
+    list-style: none;
+    display: block;
+}
+.header .menu nav ul li{
+    text-align: justify;
+    float: left;
+    align-content: center;
+    display: block;
+    font-size: 12px;
+}
+header .menu nav ul li a{
+    padding: 12px 27px;
+    display: block;
+    text-decoration: none;
+}
+.active:hover{
+    background: #3abed7;
+    border-radius: 1px 1px 1px 1px;
+    
+}
+.select{
+    min-width: 400px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 0;
+    background: white;
+    height: 35px;
+    border-radius: 5px 5px 5px 5px;
+}
+.select select{
+    border-style: none;
+    height: 35px;
+    display: block;
+    position: relative;
+    margin-left: 10px;
+    float: left;
+    width: 30%;
+    font-weight: bold;
+    font-size: 12px;
+}
+.linea{
+    border-left: 1px solid black;
+    height: 65%;
+    float: left;
+    position: relative;
+    margin-top: 5px;
+}
+.select button{
+    border-style: none;
+    min-width: 136px;
+    display: block;
+    position: relative;
+    float: left;
+    height: 35px;
+    background: #3abed7;
+    color: white;
+    border-radius: 0px 5px 5px 0px;
+    margin-left: 2px;
+    margin-right: 0;
+    padding-right: 0;
+}
+.select button span{
+    margin-right: 2px;
+}
+.login{
+    position: relative;
+    float: left;
+    color: white;
+    width: 25%;
+    height: 28vh;
+    font-family: "Franklin Gothic";
+    font-size: 12px;
+}
+.login .publicity{
+    width:50%;
+    height: 28vh;
+    position: relative;
+    float: left;
+    margin-top: 60px;
+    text-align: center;
+}
+.login .logueo{
+    position: relative;
+    float: left;
+    min-width:50%;
+    height: 28vh;
+    margin-top: 60px;
+    display: block;
+}
+.login .logueo p{
+    float: left;
+    padding-right: 3px;
+    display: block;
+    color: #3abed7;
+}
+.login .logueo span{
+    border-radius: 8px 8px 8px 8px;
+    background: #3abed7;
+    width: 15px;
+    height: 15px;
+    padding-left: 4px;
+    padding-top: 2px;
+    color: black;
+}
+
+@media screen and (max-width:800px) and (min-width:100px){
+    /*Esto es para el boton del menu en celular*/
+    .menu_bar{
+        display: block;
+        width: 100%;
+        height: 60px;
+        background: #020c15;
+        position: fixed;
+        text-align: center;
+        z-index: 3;
+    }
+    header.header{
+        width: 100%;
+        height: 60px;
+    }
+    .header .cel{
+        width: 100%;
+        height: 100vh;
+        left: -100%;
+        margin: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        background: white;
+    }
+    .header .menu{
+        float: none;
+        display: block;
+    }
+    .header .menu nav{
+        float: none;
+        background: white;
+        position: relative;
+        margin-top:130px;
+    }
+    .login .logueo{
+        width: 100%;
+        position: relative;
+        display: flex;
+        flex-direction: row;
+    }
+    .header .menu nav ul li{
+        width: 80%;
+        color: black;
+        border-bottom-color: green;
+        border-bottom: 1px solid;
+        margin-left: 40px;
+    }
+    .header .login{
+            position: relative;
+            float: top;
+            display: block;
+            top: -510px;
+            margin-top: 20px;
+            margin-left: 25px;
+    }
+    .header .login .logueo{
+            height: auto;
+            border-bottom: 1px solid;
+            border-bottom-color: green;
+            margin-left: 30px;
+    }
+    .header .login .logueo span{
+        float: left;
+        position: relative;
+        color: green;
+        background: greenyellow;
+    }
+    .header .login .logueo p{
+        float: right;
+        position: relative;
+        left: -19px;
+        color: greenyellow;
+    }
+    /**************************************************************/
+    .header{
+        width: 100%;
+        height: 60px;
+        position: fixed;
+        z-index: 2;
+        display: block;
+        background: #020c15;
+        float: left;
+    }
+    .menu_bar .bt-menu{
+        display: block;
+        position: relative;
+        width: 25%;
+        font-size: 40px;
+        float: left;
+        color: #fff;
+        text-decoration: none;
+        padding-top: 10px;
+    }
+    .subtitle{
+        width: 50%;
+        position: relative;
+        float: left;
+        color: white;
+        padding-top: 25px;
+        font-family: "Poppins",sans-serif;
+    }
+    .logue{
+        float: left;
+        position: relative;
+        display: block;
+        width: 25%;
+        padding-top: 25px;
+        font-family: "Poppins",sans-serif;
+    }
+    .logue a p{
+        color: #3abed7;
+        position: relative;
+        float: left;
+        width: auto;
+        font-size: 12px;
+    }
+    .logue a span{
+        border-radius: 8px 8px 8px 8px;
+        background: #3abed7;
+        width: 20%;
+        height: 15px;
+        color: black;
+        font-size: 12px;
+        padding-top: 2px;
+        padding-left: 0;
+    }
+    /*Ahora procederemos con lo dentro del header para celular*/
+    .logo{
+        display: none;
+    }
+    .header .subtitulo{
+        display: none;
+    }
+    .select{
+        display: none;
+    }
+}
+@media screen and (min-width:800px){
+    header.header{
+        width: 100%;
+        min-width: 1200px;
+        position: relative;
+    }
+}

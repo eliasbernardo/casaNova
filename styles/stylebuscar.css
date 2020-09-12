@@ -1,0 +1,66 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+div.conteiner{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 2000px;
+    background: red;
+    box-sizing: border-box;
+    z-index: -2;
+    position: relative;
+    display: flex;
+    flex-direction: row
+}
+.conteiner .filter{
+    box-sizing: border-box;
+    display: flex;
+    background-color: rgba(0,0,0,.7);
+    height: 1800px;
+    min-width: 200px;
+    width: 20%;
+    z-index: 2;
+}
+.conteiner .conten{
+    box-sizing: border-box;
+    background-color: rgba(255,255,255,.7);
+    width: 80%;
+    min-width: 600px;
+    height: 1600px;
+    display: block;
+    text-align: center;
+    position: relative;
+    flex-direction: row;
+}
+.conteiner .conten .public{
+    background-color: rgba(0,0,0,.8);
+    box-sizing: border-box;
+    width: 100%;
+    height: 620px;
+    position: relative;
+}
+.conteiner .conten .banner{
+    background: yellow;
+    box-sizing: border-box;
+    width:  100%;
+    height: 280px;
+    position: relative;
+}
+.conten .sec{
+    background-color: rgba(0,0,0,.8);
+    width: 100%;
+    height: 25%;
+    border: 1px solid white;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+}
+.conten .sec .imag{
+    background: white;
+    width: 50%;
+    margin: 15px 18px;
+    box-sizing: border-box;
+    position: relative;
+}

@@ -1,0 +1,14 @@
+#container{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.imagen{
+    width: 500px;
+    padding:10px;
+}
+.etiqueta{
+    color: white;
+    font-family: "Roboto", sans-serif;
+}

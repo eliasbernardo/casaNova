@@ -1,0 +1,470 @@
+@media  screen and (min-width:995px) and (max-width:1066px){
+    .letter{
+       width: 100%;
+      height: 100px;
+   }
+   .letter h2{
+       font-size: 13px;
+       font-weight: bold;
+       margin-top: 0;
+   }
+    .letter p{
+       font-size: 10px;
+       float: left;
+       display: block;
+       color: #525051;
+       position: relative;
+       text-align: initial;
+   }
+   
+}
+@media  screen and (min-width:800px) and (max-width:996px){
+   .form .titulo{
+        position: relative;
+        display: block;
+        width: 100%;
+        float: left;
+        text-align: center;
+        line-height: 0;
+        margin-top: 280px;
+        z-index: 1;
+    }
+    .titulo img{
+        width: 480px;
+        height: 200px;
+        padding: 0;
+    }
+    .titulo h2{
+        font-family: "Poppins", sans-serif;
+        font-size: 4em;
+        color: white;
+        padding: 0;
+    }
+    .titulo p{
+        font-family: "Poppins", sans-serif;
+        font-size: 1.2em;
+        color: white;
+        margin-top: 35px;
+    }
+    .titulo .slogan{
+        font-size: 1.7em;
+        margin-top: 10px;
+    }
+    .form3 .foot{
+        width: 100%;
+        float: left;
+        position: relative;
+    }
+    .form3 .image{
+        width: 30%;
+        height: 60vh;
+        position: relative;
+        float: left;
+        display: block;
+        z-index: 1;
+        text-align: center;
+    }
+    .foot img{
+        width: 240px;
+        height: 100px;
+        padding-top: 100px;
+    }
+}
+@media only screen and (max-width:800px){
+     .form .titulo{
+        position: relative;
+        display: block;
+        width: 100%;
+        float: left;
+        text-align: center;
+        line-height: 0;
+        margin-top: 280px;
+        z-index: 1;
+        font-size: 14px;
+    }
+    .titulo img{
+        width: 480px;
+        height: 200px;
+        padding: 0;
+    }
+    .titulo h2{
+        font-family: "Poppins", sans-serif;
+        font-size: 4em;
+        color: white;
+        padding: 0;
+    }
+    .titulo p{
+        font-family: "Poppins", sans-serif;
+        font-size: 1.2em;
+        color: white;
+        margin-top: 35px;
+    }
+    .titulo .slogan{
+        font-size: 1.7em;
+        margin-top: 10px;
+    }
+    .foot{
+        width: 100%;
+        float: left;
+        position: relative;
+    }
+    .foot img{
+        width: 240px;
+        height: 100px;
+        padding-top: 100px;
+    }
+    .form3 header{
+        margin: 0;
+        position: relative;
+        width: 100%;
+        z-index: 1;
+        display: block;
+        color: white;
+        font-family: "Poppins", sans-serif;
+        font-weight: bold;
+    }
+     .form3 .image{
+        width: 30%;
+        height: 60vh;
+        position: relative;
+        float: left;
+        display: block;
+        z-index: 1;
+        text-align: center;
+    }
+    .form3 .tpropiedad{
+        width: 100%;
+        height: 250px;
+        position: relative;
+        display: block;
+        text-align: center;
+        z-index: 1;
+    }
+    .form3 .rsociales{
+        width: 30%;
+        height: 60vh;
+        position: relative;
+        float: left;
+        display: block;
+        z-index: 1;
+    }
+    .tpropiedad h2{
+        height: 10%;
+        width: auto;
+        float: left;
+        padding-top: 100px;
+        padding-left: 40px;
+        font-size: 16px;
+        font-weight: normal;
+    }
+    .tpropiedad .left{
+        float: left;
+        width: 35%;
+        font-size: 12px;
+        line-height: 1.5;
+        font-weight: normal;
+        position: relative;
+        font-weight: normal;
+    }
+    .terminos{
+        width: 100%;
+        text-align: center;
+        height: 20vh;
+    }
+    .rsociales h2{
+        padding-top: 100px;
+        font-size: 16px;
+        font-weight: normal;
+    }
+    
+   /*estilo para la segunda seccion*/
+   .contsection2{
+       height: 15vh;
+       width: 100%;
+       text-align: center;
+       line-height: 1.5;
+       position: relative;
+       display: block;
+       font-family: "Poppins", sans-serif;
+   }
+   .contsection2 h2{
+       padding-top: 25px;
+       font-size: 14px;
+   }
+   .contsection2 p{
+       font-size: 11px;
+   }
+   .slideshow-container{
+       width: 100%;
+       height: 73vh;
+       position: relative;
+       z-index: 1;
+       margin: 0;
+       text-align: center;
+   }
+   .section2{
+       position: relative;
+       width: 100%;
+       height: 88vh;
+   }
+   .fade {
+        -webkit-animation-duration: 1.5s;
+        animation-name: fade;
+        animation-duration: 1.5s;
+    }
+    /***********************************************/
+    /*********************************************/
+    .section2 .slideshow-container.mySlides{
+        width: 100%;
+        height: 200px;
+    }
+     .mySlides.imagenes{
+        vertical-align: middle;
+    }
+    section.form{
+        width: 100%;
+        height: 250px;
+    }
+    .form .backsection1{
+        width: 100%;
+        height: 250px;
+        position: absolute;
+    }
+    .form .fondo{/*esto es de la imagen*/
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        height: 250px;
+        z-index: -2;
+        top: 0;
+        left: 0;
+        position: relative;
+        display: block;
+    }
+    .form .titulo{
+            position: relative;
+            display: block;
+            width: 100%;
+            float: left;
+            text-align: center;
+            line-height: 0;
+            margin-top: 30px;
+            z-index: 1;
+        }
+       .titulo h2{
+            font-family: "Poppins", sans-serif;
+            font-size: 1.5em;
+            color: white;
+            padding: 0;
+    }
+    .titulo p{
+            font-family: "Poppins", sans-serif;
+            font-size: 0.8em;
+            color: white;
+            margin-top: 35px;
+    }
+    .titulo img{
+        width: 150px;
+        height: 100px;
+    }
+    .titulo .slogan{
+        font-size: 0.8rem;
+    }
+    section.form2{
+        width: 100%;
+        height: 500px;
+    }
+    .section2 .contsection2{
+        height: 180px;
+        width: 100%;
+    }
+    .contsection2 h2{
+        font-size: 22px;
+        margin :0 5px;
+    }
+    .contsection2 p{
+        text-align: center;
+        margin: 0 20px;
+    }
+    .section2 .slideshow-container{
+        width: 100%;
+        height: 320px;
+    }
+    .contimg{/*esto es de las imagenes de la segunda section*/
+       position: relative;
+       margin: auto;
+   }
+   .prev, .next,.text {font-size: 11px}
+   .form3 .backsection3{
+       width: 100%;
+       height: 450px;
+   }
+   
+   .form3{
+       width: 100%;
+       height: 450px;
+   }
+   .form3 .image{
+       text-align: center;
+       position: relative;
+       width: 100%;
+       float: left;
+       height: 100px;
+   }
+   .foot img{
+       padding-top: 50px;
+   }
+   .fade {
+        -webkit-animation-duration: 1.5s;
+        animation-name: fade;
+        animation-duration: 1.5s;
+    }
+    .prev, .next {
+        cursor: pointer;
+        position: absolute;
+        top: 30%;
+        width: auto;
+        padding: 16px;
+        margin-top: -22px;
+        color: white;
+        font-weight: bold;
+        font-size: 18px;
+        transition: 0.6s ease;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+    }
+    .mySlides .fade{
+        display: block;
+        width: 100%;
+        z-index: -1;
+        position: relative;
+        float:left;
+  }
+  
+
+/* Position the "next button" to the right */
+    .slideshow-container .next {
+      right: 0;
+      margin-right: 20px;
+      border-radius: 3px 0 0 3px;
+      font-size: 40px;
+      color: white;
+      text-shadow: 0 0 10px black;
+    }
+    .slideshow-container .prev{
+        left: 0;
+        border-radius: 3px 0 0 3px;
+        font-size: 40px;
+        color: white;
+        margin-left: 20px;
+        text-shadow: 0 0 10px black;
+    }
+    .mySlides .descrip{
+      display: block;
+      border: 1px solid #c8edf5;
+      background-color: rgba(200, 237, 245,.8);
+      width: 100%;
+      position: relative;
+      height: 50px;
+      text-align: justify;
+      font-family: "Poppins", sans-serif;
+      font-size: 11px;
+  }
+  .mySlides .text{
+      width: 100%;
+      display: block;
+      background-color: rgba(214,214,214,.1);
+      border:  1px solid #d6d6d6;
+      font-family: "Poppins", sans-serif;
+      text-align: justify;
+  }
+  .mySlides .text div{
+      padding-left: 10px;
+      padding-right: 10px;
+      margin-top: 5px;
+      margin-bottom: 5px;
+      color: black;
+      font-weight: bold;
+  }
+  .mySlides .descrip div{/*Estilo para las descripciones de la publicacion en la segunda seccion*/
+      padding-left: 10px;
+      padding-right: 10px;
+  }
+   
+   /*AQUI ES LO QUE VIENE DESPUES de la segunda seccion*/
+   .form3 .tpropiedad{
+       width: 100%;
+       height: 250px;
+       text-align: justify;
+       position: relative;
+       margin: 0;
+   }
+   .tpropiedad .conten{
+       width: 100%;
+       height: 350px;
+       position: relative;
+       margin-right: 0;
+        padding-right: 0;
+   }
+   .tpropiedad h2{
+       font-size: 13px;
+       position: relative;
+       float: left;
+       padding-top: 10px;
+       margin-top: 40px;
+       width: auto;
+   }
+   .tpropiedad .left{
+       font-size: 11px;
+       position: relative;
+       line-height: 1.7;
+       width: 80%;
+       margin-left: 20px;
+   }
+    .form3 .rsociales{
+       width: 100%;
+       height: 50px;
+   }
+   .rsociales h2{
+       padding-top: 50px;
+       font-size: 13px;
+       padding-left: 20px;
+   }
+   .rsociales .fa-facebook{
+       padding-left: 20px;
+   }
+   .form3 .terminos{
+       display: none;
+   }
+  .prev, .next,.text {font-size: 11px}
+}
+@media only screen and (min-width:800px){/*lo que afectara en la segunda section*/
+    .slideshow-container{
+        width: 100%;
+    }
+    .mySlides{
+        border :1px solid #3abed7;
+        height :220px;
+        width :180px;
+        position :relative;
+        float :left;
+        margin: 4px 12px;
+        text-align: center;
+        display: block;
+  }
+  .mySlides .imagenes{
+      width: 100%;
+      height: 100px;
+      padding-bottom: 10px;
+      display: block;
+  }
+  .prev ,.next{
+      display: none;
+  }
+    }
+    
+
+
+
+
+
