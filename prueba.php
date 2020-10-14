@@ -16,7 +16,7 @@
             .container .conten{
                 width: 100%;
                 height: 350px;
-                display: inline-block;
+                display: flex;
                 box-sizing: border-box;
                 position: relative;
                 padding: 2px 20px;

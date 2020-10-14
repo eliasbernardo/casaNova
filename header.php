@@ -29,17 +29,31 @@
                         
                         <nav>
                             <ul>
-                                <li class="active"><a>COMPRAS</a></li>
-                                <li class="active"><a>ALQUILER</a></li>
-                                <li class="active"><a>EMPRESA</a></li>
+                                <li class="active"><a>COMPRAR</a></li>
+                                <li class="active"><a>ALQUILAR</a></li>
+                                <li class="active"><a>TRASPASO</a></li>
                                 <li class="active"><a>COMERCIAL</a></li>
                                 <li class="active"><a>PROYECTOS</a></li>
                             </ul>
                         </nav>
                         <div class="select">
-                            <form action="#">
+                            <form action="buscar_since_index.php">
                                 <select> 
+                                    <option>Seleccione</option>
                                     <option>CASA</option>
+                                    <option>HABITACION</option>
+                                    <option>DEPARTAMENTO</option>
+                                    <option>TERRENO ERIAZO</option>
+                                    <option>TERRENO AGRICOLA</option>
+                                    <option>TERRENO COMERCIAL</option>
+                                    <option>TERRENO INDUSTRIAL</option>
+                                    <option>LOTES PARA VIVIENDA</option>
+                                    <option>COCHERA</option>
+                                    <option>LOCAL INDUSTRIAL</option>
+                                    <option>LOCAL COMERCIAL</option>
+                                    <option>HOTEL/HOSTAL</option>
+                                    <option>OFICINAS</option>
+                                    <option>EDIFICIO</option>
                                 </select>
                                 <span class="linea"></span>
                                 <select> 

@@ -1,0 +1,361 @@
+html{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+body{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+.registro{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    padding: 0px;
+    border: 0px;
+    margin: 0px
+}
+.registro .background{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: black;
+    opacity: .85;
+    z-index: 2;
+}
+
+img{
+    width: 100%;
+    height: auto;
+    z-index: 1;
+}
+input{
+    width: 80%;
+    height: 35px;
+    box-sizing: border-box;
+    border: 1px solid rgba(0,0,0,.4);
+    border-radius: .3em .3em;
+}
+
+.registro .formulario{
+    width: 50%;
+    height: 90%;
+    display: flex;
+    position: absolute;
+    z-index: 3;
+}
+.registro .formulario .formu{
+    width: 60%;
+    height: 80%;
+    background: white;
+    position: relative;
+    margin: 10%;
+    top: 0%;
+    box-sizing: border-box;
+    border: 1px solid white;
+    border-radius: .2em .2em;
+}
+.registro .formulario .formu h3{
+    width: 80%;
+    height: 30px;
+    margin-left: 10%;
+    position: absolute;
+    display: block
+}
+.registro .formulario .formu .nombre{
+    width: 80%;
+    color: #525051;
+    margin-left:  10%;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.registro .formulario .formu .nombre .nombrep{
+    width: 100%;
+    height: 40px;
+    margin-left: 20%;
+    top:8%;
+    position: absolute
+        
+}
+.registro .formulario .formu .nombre .nombrein{
+    width: 100%;
+    height: 40px;
+    margin-left: 20%;
+    top:15%;
+    position: absolute
+}
+
+.registro .formulario .formu .apellido{
+    width: 80%;
+    color: #525051;
+    margin-left: 10%;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.registro .formulario .formu .apellido .apellidop{
+    width: 100%;
+    height: 25px;
+    margin-left: 20%;
+    top:18%;
+    position: absolute
+}
+.registro .formulario .formu .apellido .apellidoin{
+    width: 100%;
+    height: 25px;
+    margin-left: 20%;
+    top:25%;
+    position: absolute
+    
+}
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color: #d6d6d6;
+    text-align: left;
+    padding-left: 16%;
+}
+
+.registro .formulario .formu .razon{
+    width: 80%;
+    color: #525051;
+    margin-left: 10%;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.registro .formulario .formu .razon .razonp{
+    width: 100%;
+    height: 25px;
+    margin-left: 20%;
+    top:28%;
+    position: absolute
+}
+.registro .formulario .formu .razon .razonin{
+    width: 100%;
+    height: 25px;
+    margin-left: 20%;
+    top:35%;
+    position: absolute
+    
+}
+
+.registro .formulario .formu .dni-ruc{
+    width: 80%;
+    color: #525051;
+    margin-left: 10%;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.registro .formulario .formu .dni-ruc .dnip{
+    width: 100%;
+    height: 25px;
+    margin-left: 20%;
+    top:38%;
+    position: absolute
+}
+.registro .formulario .formu .dni-ruc .dniin{
+    width: 100%;
+    height: 25px;
+    margin-left: 20%;
+    top:45%;
+    position: absolute
+    
+}
+
+.registro .formulario .formu .correo{
+    width: 80%;
+    color: #525051;
+    margin-left: 10%;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.registro .formulario .formu .correo .correop{
+    width: 100%;
+    height: 25px;
+    margin-left: 20%;
+    top:48%;
+    position: absolute
+}
+.registro .formulario .formu .correo .correoin{
+    width: 100%;
+    height: 25px;
+    margin-left: 20%;
+    top:55%;
+    position: absolute
+    
+}
+.registro .formulario .formu .tlf{
+    width: 80%;
+    color: #525051;
+    margin-left: 10%;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.registro .formulario .formu .tlf .tlfp{
+    width: 100%;
+    height: 25px;
+    margin-left: 20%;
+    top:58%;
+    position: absolute
+}
+.registro .formulario .formu .tlf .tlfin{
+    width: 100%;
+    height: 25px;
+    margin-left: 20%;
+    top:65%;
+    position: absolute
+    
+}
+
+.registro .formulario .formu .usuario{
+    width: 80%;
+    color: #525051;
+    margin-left: 0%;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.registro .formulario .formu .usuario .usuariop{
+    width: 100%;
+    height: 25px;
+    margin-left: 40%;
+    top:68%;
+    position: absolute
+}
+.registro .formulario .formu .usuario button{
+    width: 70%;
+    height: 40px;
+    color: #d6d6d6;
+    margin-left: 0px;
+    background: white;
+    box-sizing: border-box;
+    border: 1px solid rgba(0,0,0,.4);
+    border-radius: .5em .5em;
+   
+}
+.registro .formulario .formu .usuario .part{
+    width: 49%;
+    height: 25px;
+    color: #d6d6d6;
+    position: absolute;
+    background: white;
+    margin-left: 0px;
+    padding: 0px;
+    top:75%;
+}
+.registro .formulario .formu .usuario .inm{
+    width: 49%;
+    height: 25px;
+    color: #d6d6d6;
+    position: absolute;
+    background: white;
+    margin-left: 70%;
+    padding: 0px;
+    top:75%;
+}
+.registro .formulario .formu .usuario .agen{
+    width: 49%;
+    height: 25px;
+    color: #d6d6d6;
+    position: absolute;
+    background: white;
+    margin: 0px;
+    padding: 0px;
+    top:81%;
+}
+.registro .formulario .formu .usuario .const{
+    width: 49%;
+    height: 25px;
+    color: #d6d6d6;
+    position: absolute;
+    background: white;
+    margin-left: 70%;
+    padding: 0px;
+    top:81%;
+}
+.registro .formulario .formu .reg{
+    width: 100%;
+    height: 40px;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.registro .formulario .formu .reg button{
+    width: 80%;
+    height: 40px;
+    padding: 0px;
+    border: 0px;
+    background: #3abed7;
+    color: white;
+    top:88%;
+    position: absolute;
+    box-sizing: border-box;
+    border: 1px solid #3abed7;
+    border-radius: .5em .5em;
+}
+
+.registro .formulario .formu .terminos{
+    width: 100%;
+    top: 93%;
+    position: absolute;
+    margin-left: 5%;
+    font-size: 15px;
+}
+.registro .formulario .formu .terminos .terminosp1{
+    width: 100%;
+    text-align: left;
+    display: flex;
+    position: absolute;
+}
+.registro .formulario .formu .terminos .terminosp2{
+    width: 100%;
+    text-align: left;
+    display: flex;
+    color: #3abed7;
+    position: absolute;
+    margin-left: 40%
+}
+
+.registro .ingresar{
+    width: 50%;
+    display: flex;
+    position: absolute;
+    top: 6%;
+    margin-left: 50%;
+    z-index: 3;
+}
+
+.registro .ingresar .ya{
+    width: 28%;
+    top: 4%;
+    position: relative;
+    color: white;
+}
+.registro .ingresar .ingr{
+    width: 50%;
+    top: 4%;
+    margin-left: 0%;
+    color: #3abed7;
+    position: relative
+}
+
+

@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.propiety-public{
+    width: 100%;
+    height: 1200px;
+    box-sizing: border-box;
+    position: relative;
+    min-width: 1200px;
+    font-family: "Poppins", sans-serif;
+}
+.propiety-public .propiety{
+    width: 35%;
+    height: 100%;
+    position: relative;
+    float: left;
+    box-sizing: border-box;
+}
+.propiety-public .propiety-description{
+    width: 65%;
+    height: 100%;
+    position: relative;
+    float: left;
+    box-sizing: border-box;
+    padding: 20px 60px;
+}
+.propiety-description .conten-public{
+    width: 100%;
+    height: 5%;
+}
+.propiety-description .description{
+    font-weight: bold;
+    width: 100%;
+    font-size: 20px;
+}
+.propiety-description .direction{
+    color: rgba(0,0,0,.4);
+    width: 100%;
+    font-size: 16px;
+    font-weight: bold;
+}
+.propiety-description .imag-description{
+    position: relative;
+    width: 100%;
+    height: 40%;
+    box-sizing: border-box;
+}
+.propiety-description .general-description{
+    position: relative;
+    width: 100%;
+    height: 20%;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.general-description .name-description{
+    font-weight: bold;
+    font-size: 13px;
+    width: 100%;
+    height: 10%;
+    position: relative;
+}
+.general-description .parraf-description{
+    font-size: 13px;
+    width: 100%;
+    height: 90%;
+    position: relative;
+    line-height: 1.2;
+    padding: 20px 0;
+    text-align: justify;
+}
+.propiety-description .ubication-general{
+    width: 100%;
+    height: 35%;
+    box-sizing: border-box;
+    position: relative;
+}
+.ubication-general .ubication,.name-ubication{
+    width: 100%;
+    height: 10%;
+    position: relative;
+    box-sizing: border-box;
+}
+.ubication-general .map{
+    width: 100%;
+    height: 80%;
+    box-sizing: border-box;
+    justify-content: center;
+}
+.map iframe{
+    width: 100%;
+    height: 100%;
+}
+.imag-description .imag-slider{
+    width: 100%;
+    height: 75%;
+    box-sizing: border-box;
+}
+.slide img{
+    width: 100%;
+    height: 100%;
+}
+.imag-description .imag-slider-one{/*Para las 5 imagenes debajo de la grande*/
+    width: 100%;
+    height: 25%;
+    box-sizing: border-box;
+    margin-top: 15px;
+}
+.imag-description .slider #slide{
+    width: 100%;
+    height: 100%;
+}
+
+.propiety .contact-anu{
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    position: relative;
+    float: left;
+    padding-top: 30px;
+}
+.propiety .contact-anu form{
+    box-sizing: border-box;
+    padding: 10px 10px;
+    width: 75%;
+    box-shadow: 1px 1px 3px 1px rgba(0,0,0,.4);
+    border-radius: 5px 5px 5px 5px;
+}
+.contact-anu form .form{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 12px 10px;
+    border-radius: 4px 4px 4px 4px;
+    border: 1px solid rgba(0,0,0,.3);
+}
+input.btn{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 12px 10px;
+    border-radius: 4px 4px 4px 4px;
+    color: white;
+    background: #3abed7;
+    border: 1px solid #3abed7;
+    font-weight: bold;
+}
+input.message{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 18px 10px;
+    border-radius: 4px 4px 4px 4px;
+    color: white;
+    border: 1px solid rgba(0,0,0,.3);
+}
+form input{
+    margin-bottom: 10px;
+}
+form .p{
+    box-sizing: border-box;
+    padding-right: 40px;
+    padding-bottom: 15px;
+}
+form div{
+    font-weight: bold;
+}
