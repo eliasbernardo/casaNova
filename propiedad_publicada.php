@@ -82,7 +82,7 @@ require './header.php';
                         <input type="text" class="form" placeholder="Ingresa tu teléfono">
                         <div>Mensaje</div>
                         <input type="text" class="message">
-                        <li> Al enviar estás aceptando los términos y condiciones de Uso</li>
+                        <li> Al enviar estás aceptando los términos y condiciones</li>
                     </form>
                 </div>
             </div>

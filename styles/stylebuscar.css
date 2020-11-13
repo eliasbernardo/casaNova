@@ -11,18 +11,16 @@ body{
     background-color: rgba(214,214,214,.7);
     /*background: red;*/
     box-sizing: border-box;
-    z-index: -2;
     position: relative;
     display: flex;
+    font-family: "Poppins",sans-serif;
 }
 .conteiner .filter{
     box-sizing: border-box;
-    display: flex;
     /*background-color: rgba(0,0,0,.7);*/
     height: 1700px;
     min-width: 200px;
     width: 20%;
-    z-index: 2;
     padding: 10px 10px 50px 10px;
 }
 .filter .filtrosearch{
@@ -31,9 +29,67 @@ body{
     width: 100%;
     height: 100%;
     z-index: 3;
-    display: flex;
+    display: block;
     box-shadow: 1px 1px 5px 1px rgba(0,0,0,.4);
+    float: left;
+    padding: 10px 5px 5px 10px;
 }
+.filter .filtrosearch .mostrar-filtro-seleccionado{
+    width: 100%;
+    height: auto;
+    position: relative;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    padding: 10px 0px;
+}
+.filter .filtrosearch .mostrar-filtro-seleccionado div{
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+.filter .filtrosearch .mostrar-filtro-seleccionado div h5{
+    width: 50%;
+    height: 100%;
+    display: block;
+    float: left;
+    font-size: 11px;
+}
+.filter .filtrosearch .mostrar-filtro-seleccionado div a{
+    width: 50%;
+    height: 100%;
+    display: block;
+    float: right;
+    color: #3abed7;
+    font-weight: bold;
+    font-size: 10px;
+    box-sizing: border-box;
+    padding-left: 20px;
+}
+.filtrosearch .filtro-radio{
+    width: 100%;
+    height: auto;
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+}
+.filtrosearch .filtro-radio .filtro-radio-filter{
+    width: 100%;
+    box-sizing: border-box;
+    display: block;
+    position: relative;
+    padding-top: 15px;
+}
+.filtrosearch .filtro-radio .filtro-radio-filter h3{
+    box-sizing: border-box;
+    padding-bottom: 10px;
+}
+.filtrosearch .filtro-radio .filtro-radio-filter .radio{
+    box-sizing: border-box;
+    padding: 5px 5px;
+}
+
+/*Estilo para las imagenes a mostrar*/
 .conteiner .conten{
     box-sizing: border-box;
     /*background-color: rgba(255,255,255,.7);*/

@@ -13,8 +13,49 @@ require './header.php';
             <!--PARA EL  FILTRO-->
             <div class="filter">
                 <!--Aqui es la seccion de filtro-->
-                <div class="filtrosearch"><h2>AQUI IRA LAS OPCIONES DE FILTRO</h2></div>
+                <div class="filtrosearch">
+                    <div class="mostrar-filtro-seleccionado">
+                        <div><h5>Selección actual</h5><a>Limpiar filtros</a></div>
+                    </div>
+                    <div class="filtro-radio">
+                        <div class="filtro-radio-filter">
+                            <h3>Tipo de operación</h3>
+                            <div class="radio"><input type="radio" name="toperacion" value="comprar"><label>Comprar</label></div>
+                            <div class="radio"><input type="radio" name="toperacion"><label>Alquilar</label></div>
+                            <div class="radio"><input type="radio" name="toperacion"><label>Comercial</label></div>
+                            <div class="radio"><input type="radio" name="toperacion"><label>Proyectos</label></div>
+                            <div class="radio"><input type="radio" name="toperacion"><label>Traspaso</label></div>
+                        </div>
+                        <div class="filtro-radio-filter">
+                            <h3>Tipo de inmueble</h3>
+                            <div class="radio"><input type="radio" name="inmueble"><label>Departamento</label></div>
+                            <div class="radio"><input type="radio" name="inmueble"><label>Casa</label></div>
+                            <div class="radio"><input type="radio" name="inmueble"><label>Terreno/Lote</label></div>
+                            <div class="radio"><input type="radio" name="inmueble"><label>Local comercial</label></div>
+                            <div class="radio"><input type="radio" name="inmueble"><label>Oficina</label></div>
+                        </div>
+                        <div>
+                            <h3>Dormitorios</h3>
+                            <a>1</a>
+                            <a>2</a>
+                            <a>3</a>
+                            <a>4</a>
+                            <a>5</a>
+                        </div>
+                        <div>
+                            <h3>Baño</h3>
+                            <a>1</a>
+                            <a>2</a>
+                            <a>3</a>
+                            <a>4</a>
+                            <a>5</a>
+                        </div>
+                    </div>
+                </div>
             </div>
+            
+            
+            
             <div class="conten">
                 <div class="public hone">
                     <div class="sec one">
